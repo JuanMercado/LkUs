@@ -1,0 +1,82 @@
+extends layout
+block content
+  div#content
+    div#loginForm
+    div#main
+          header
+            hgroup
+                h1 L
+                h2
+                    div.myName
+            a(href='#index/me')
+                img(src='')
+
+          section#left
+                ul
+                    li
+                        a(href='#index/me')
+                            .noti-f-left Buscar Profesion...
+                            .noti-f-right
+                                .notificaton-circle
+                                    #QBProf
+                    li
+                        a(href='#index/me')
+                            .noti-f-left Inicio
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qposts
+                    li
+                        a(href='#profile/me')
+                            .noti-f-left Perfil
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qprofile
+                    li
+                        a(href='#invitation/me')
+                            .noti-f-left Invitaciones
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qinvitation
+                    li
+                        a(href='#files/me')
+                            .noti-f-left Archivero
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qfiles
+                    li
+                        a(href='#calendar/me')
+                            .noti-f-left Agenda
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qcalendar
+                    li
+                        a(href='#contacts/me')
+                            .noti-f-left Seguidores
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qcontacts
+                    li
+                        a(href='#frommyprofession/me')
+                            .noti-f-left De mis Profesiones
+                            .noti-f-right
+                                .notificaton-circle
+                                    #Qfrommyprofession
+                    li
+                        a(href='#configuration/me')
+                            .noti-f-left Configuraciones
+                            .noti-f-right
+                    li
+                        a(href='#logout')
+                            .noti-f-left Cerrar Sesión
+                            .noti-f-right
+            article
+                div#myBodyContent
+                    div#postear
+
+            section#right
+                h1 Adds
+
+            footer
+                p footer
+block scripts
+  script(data-main='js/boot', type='text/javascript',src='/js/libs/require.js')

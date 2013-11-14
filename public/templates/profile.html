@@ -1,0 +1,63 @@
+  <div id="p-box">
+     <div class="p-left">
+         <!--Imagen-->
+         <div class="circular">
+             <div>
+                <img src="<%=photoUrlSmall%>" class="picture" />
+            </div>
+            <div>
+                <a href="#" name="addPicture">Agregar</a>
+            </div>
+         </div>
+         <!--Link Agregar -->
+     </div>
+     <div class="p-right">
+         <!-- Nombres y Apellidos -->
+         <div id="p-name">
+            <div class="p-c-span">
+                <span name="first"><%= (name.first && name.first!=='') ? name.first : 'Nombres' %></span>
+                <span class="last"><%= (name.last && name.last!=='') ? name.last : 'Apellidos' %></span>
+            </div>
+             <div class="p-c-input">
+                <input name="i-first" value="<%= (name.first!=='') ? name.first : '' %>" />
+                <input name="i-last" value="<%= (name.last !=='') ? name.last : '' %>" />
+             </div>
+         </div>
+         <div id="p-profesions">
+            <ul id="double"></ul>
+         </div>
+         <div id="showprofession">
+            <button id="show-prof">+</button>
+            <div id="show-list-professions">
+                <div class="profession_search">
+                    <input id="searching" name="searchStr" type="search" style="width:200px; height:30px;" placeholder="Busca tu profesión"  />
+                </div>
+                <div id="list-profession">
+                    <ul></ul>
+                </div>
+
+            </div>
+         </div>
+     </div>
+ </div>
+ <div id="b-box-prof">
+    <label>Cumpleaños:</label>
+    <input type="date" name="cumple" />
+    <div class="myAddresses" >
+        <div class="p-address-address">
+        </div>
+        <div>
+            <label>Dirección:</label>
+            <textarea name="address" id="textAddress" cols="50" rows="3"></textarea>
+            <button id="AddAddress">Agregar Dirección</button>
+        </div>
+        <span class="error"></span>
+    </div>
+    <div class="myTelephones" >
+        <div>
+            <label>Telefono:</label>
+            <input name="telephone" id="Telephono" />
+            <button id="AddAddress">Agregar Telefono</button>
+        </div>
+    </div>
+ </div>

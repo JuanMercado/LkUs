@@ -1,0 +1,31 @@
+POSTID:<%=postId%>
+<div class="l-h-post">
+	<div class="circular">
+		<div class="img-profile-post"><img src="<%= model.photoUrlSmall%>" ></div>
+		<div class="mnu-post">
+			<nav class="menu_gral">
+				<ul>
+					<li><a href="#index/me">Menu</a>
+						<ul>
+							<li><a href="#index/me" name="p-response"id="p-r-id-<%=model.postId%>">Responder</a></li>
+							<li><a href="#index/me" name="p-folow">Seguir</a></li>
+							<li><a href="#profile/me">Perfil</a></li>
+							<li><a href="#files/me">Archivar</a></li>
+							<li><a href="#index/me" name="p-delete">Eliminar</a></li>
+							<li><a href="#index/me" name="p-calendar">Agendar</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="r-h-post">
+	<div class="name-post">
+		<a href="#profile/me"><%= model.name.full%></a>
+	</div>
+	<div class="professions-post">
+
+	</div>
+</div>

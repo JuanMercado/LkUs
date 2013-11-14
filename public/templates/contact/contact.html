@@ -1,0 +1,15 @@
+<div class="contact-all">
+	<div class="contact-info-left inversePair">
+		<div class="circular">
+			<img src="<% if(model.photoUrlSmall){%><%= model.photoUrlSmall%><%}else{%><%=photoUrlSmall %><%}%>" >
+		</div>
+	</div>
+	<div class="contact-info-right inversePair">
+		<div class="contact-content">
+			<div class="contact-name"><% if(model.name.full){%><%= model.name.full%><%}else{%><%=name.full %><%}%>
+				<div class="contact-professions"></div>
+			</div>
+		</div>
+<button class="btnfollowcancel" id="bfc-<% if(model._id){%><%= model._id%><%}else{%><%=_id %><%}%>">Dejar de Seguir</button>
+	</div>
+</div>

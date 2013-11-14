@@ -1,0 +1,26 @@
+<div class="contact-all">
+	<div class="contact-info-left inversePair">
+		<div class="circular">
+			<img src="<%=model.photoUrlSmall %>" >
+		</div>
+	</div>
+	<div class="contact-info-right inversePair">
+		<div class="contact-content">
+			<div class="contact-name"><%=model.name.full %>
+				<div class="contact-professions"></div>
+			</div>
+		</div>
+		<%if(status=='Invitar') {%>
+			<button class="btnfollow" id="bf-<%=model._id%>"><%=status%></button>
+		<%}
+		  if(status=='Pendiente')
+		  	{%>
+			<button disabled><%=status%></button>
+		<%}
+		if(status=='Aceptar'){
+		%>
+		<button id="bfa-<%=model._id%>" class="btnadd"><%=status%></button>
+		<%}%>
+	<button class="btnfollowcancel" id="bfc-<%=model._id%>">NO</button>
+	</div>
+</div>

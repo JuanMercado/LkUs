@@ -1,0 +1,1225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"curre",
+				"currentPostId"
+			],
+			[
+				"post",
+				"postId"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"contact",
+				"contactId"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"accoun",
+				"account"
+			],
+			[
+				"upd",
+				"updated"
+			],
+			[
+				"conta",
+				"contactId"
+			],
+			[
+				"account",
+				"accountId"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"cont",
+				"contador"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"acco",
+				"accountId"
+			],
+			[
+				"new",
+				"newInvitation"
+			],
+			[
+				"aco",
+				"accountId"
+			],
+			[
+				"invi",
+				"InvitationView"
+			],
+			[
+				"In",
+				"Invitation"
+			],
+			[
+				"invit",
+				"InvitationTemplate"
+			],
+			[
+				"Invit",
+				"InvitationView"
+			],
+			[
+				"Invitat",
+				"InvitationCollection"
+			],
+			[
+				"contacts",
+				"contacts"
+			],
+			[
+				"Addre",
+				"AddressesView"
+			],
+			[
+				"render",
+				"renderAddresses"
+			],
+			[
+				"firs",
+				"firstArray"
+			],
+			[
+				"second",
+				"secondArray"
+			],
+			[
+				"secon",
+				"secondArray"
+			],
+			[
+				"sec",
+				"secondArray"
+			],
+			[
+				"fir",
+				"firstArray"
+			],
+			[
+				"para",
+				"param"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"parameter",
+				"parameter"
+			],
+			[
+				"param",
+				"param"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"log",
+				"log"
+			],
+			[
+				"addres",
+				"addresses"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"add",
+				"addresses"
+			],
+			[
+				"accou",
+				"account"
+			],
+			[
+				"ac",
+				"Account"
+			],
+			[
+				"inv",
+				"invitations"
+			],
+			[
+				"Contac",
+				"ContactView"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"resul",
+				"resultList"
+			],
+			[
+				"Con",
+				"ContactModel"
+			],
+			[
+				"CONTACT",
+				"contact"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paf",
+				"padding-left"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"contac",
+				"contact-all"
+			],
+			[
+				"the",
+				"thenewpost"
+			],
+			[
+				"find",
+				"findPostById"
+			],
+			[
+				"pho",
+				"photoUrlSmall"
+			],
+			[
+				"photo",
+				"photoUrlSmall"
+			],
+			[
+				"ph",
+				"photoUrlSmall"
+			],
+			[
+				"phot",
+				"photoUrlLarge"
+			],
+			[
+				"ne",
+				"newHeaderModel"
+			],
+			[
+				"postheader",
+				"PostHeaderModel"
+			],
+			[
+				"heade",
+				"header-post"
+			],
+			[
+				"header",
+				"header-post-"
+			],
+			[
+				"postheade",
+				"PostHeaderView"
+			],
+			[
+				"posth",
+				"postHtml"
+			],
+			[
+				"posts",
+				"postsTemplate"
+			],
+			[
+				"Post",
+				"PostsView"
+			],
+			[
+				"sub",
+				"submitResponse"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"profi",
+				"profileModel"
+			],
+			[
+				"Profile",
+				"ProfileModel"
+			],
+			[
+				"postheadermode",
+				"postheadermodel"
+			],
+			[
+				"reset",
+				"resetModel"
+			],
+			[
+				"status",
+				"status_list"
+			],
+			[
+				"PostHeade",
+				"PostHeaderView"
+			],
+			[
+				"postco",
+				"postcollection"
+			],
+			[
+				"schem",
+				"schemaOptions"
+			],
+			[
+				"sche",
+				"Schema"
+			],
+			[
+				"pro",
+				"ProfileModel"
+			],
+			[
+				"Addres",
+				"AddressesTemplate"
+			],
+			[
+				"addre",
+				"AddressTemplate"
+			],
+			[
+				"tee",
+				"telephone"
+			],
+			[
+				"typ",
+				"telephonetype"
+			],
+			[
+				"Address",
+				"AddressView"
+			],
+			[
+				"prof",
+				"profileCollection"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"Prof",
+				"Profile"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"onSoc",
+				"onSocketChangeName"
+			],
+			[
+				"displa",
+				"displayNameView"
+			],
+			[
+				"upda",
+				"updateField"
+			],
+			[
+				"Displa",
+				"DisplayNameView"
+			],
+			[
+				"on",
+				"onSocketChangeName"
+			],
+			[
+				"bin",
+				"bind"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"d",
+				"dashed"
+			],
+			[
+				"onPost",
+				"onPostCollectionReset"
+			],
+			[
+				"index",
+				"indexTemplate"
+			],
+			[
+				"schema",
+				"Schema"
+			],
+			[
+				"Tele",
+				"TelephonesCollection"
+			],
+			[
+				"profe",
+				"ProfessionsCollection"
+			],
+			[
+				"addes",
+				"AddressesCollection"
+			],
+			[
+				"model",
+				"model	ColdBox Model Object"
+			],
+			[
+				"rout",
+				"routeName"
+			],
+			[
+				"sess",
+				"sessionStore"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"event",
+				"eventName"
+			],
+			[
+				"eve",
+				"eventName"
+			],
+			[
+				"even",
+				"eventName"
+			],
+			[
+				"login",
+				"loginView"
+			],
+			[
+				"registr",
+				"register"
+			],
+			[
+				"regis",
+				"registerCallback"
+			],
+			[
+				"sha",
+				"sha"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"create",
+				"createHash"
+			],
+			[
+				"Acc",
+				"Account"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mon",
+				"mongoose"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/views/index.js",
+			"settings":
+			{
+				"buffer_size": 2467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/post/postheadtempl.html",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/post/postheaderview.js",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/post/posts.js",
+			"settings":
+			{
+				"buffer_size": 939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/styles/styles.css",
+			"settings":
+			{
+				"buffer_size": 8267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/Account.js",
+			"settings":
+			{
+				"buffer_size": 8962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/accounts.js",
+			"settings":
+			{
+				"buffer_size": 11269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 2739,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/router.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/invitation/invitation.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/invitation/invitation.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/invitation/invitations.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/invitation/invitations.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/contact/contacts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/contact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/contact.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/views/index.jade",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/contact/contacts.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/contact/contact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/menu.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/menu.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/contact/addcontact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/contact/addcontact.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/InvitationCollection.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Invitation.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/profile.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/profile.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/addresstempl.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/addressestempl.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/addressview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/addressesview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/index.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/routes/accounts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/models/Account.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/post/posts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/styles/styles.css",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/app.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/post/posts.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/post/postheaderview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/post/postheadtempl.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/contact/contact.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone copia/public/templates/contact/addcontact.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone copia/public/js/views/contact/contact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone copia/public/js/views/contact/contacts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/login.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/index.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/chatitem.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/forgotpassword.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/register.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/views/resetPasswordSuccess.jade",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/addcontact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/login.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/package.json",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/routes/r_post",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/routes/authentication.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/PostHeaderModel.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/posts.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/posts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/postview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Profile.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/boot.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/contact.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/contacts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/displaynameview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/addressview",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/chatsession.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/chatsession.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/chat.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/chatitem.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/AddressesCollection.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/telephonestempl.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/telephonesview.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/displaynametempl.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/displaynameview",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/templates/displaynametempl",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Account.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/DisplayNameModel.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/routes/accounts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/index.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/router.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/models/Account.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Posts.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/PostsCollection.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/status.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/app.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/profileinfo.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/profileinfo.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/index.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/status.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Telephones.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/TelephonesCollection.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/ProfessionsCollection.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Professions.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/models/Addresses.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/views/layout.jade",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/js/views/JadeIndex",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/profile.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/SocialNet.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/register.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/views/login.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/profile.html",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/scripts/supersized-init.js",
+		"/Users/jreyes/Documents/zapatas/node_1/node_modules/express/node_modules/connect/lib/middleware/session/store.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/models/Account.js",
+		"/Users/jreyes/Documents/zapatas/node_1/node_modules/connect/node_modules/formidable/test/legacy/system/test-multi-video-upload.js",
+		"/Users/jreyes/Documents/zapatas/node_1/app.js",
+		"/Users/jreyes/Documents/zapatas/node_1/views/layout.jade",
+		"/Users/jreyes/Documents/zapatas/node_1/public/templates/register.html",
+		"/Users/jreyes/Documents/zapatas/node_1/models/Account.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/models/Contact.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/models/ContactCollection.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/SocialNetSockets.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/templates/index.html",
+		"/Users/jreyes/Documents/zapatas/node_1/public/templates/login.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/js/SocialNetView.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/views/login.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/SocialNetView.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch06/models/Account.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/views/index.js",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/public/templates/login.html",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/models/Account.js",
+		"/Users/jreyes/Documents/zapatas/linkus/index.php",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/libs/supersized.3.2.7.min.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/libs/supersized-init.js",
+		"/Users/jreyes/Documents/zapatas/node_1/public/js/boot.js",
+		"/Users/jreyes/Documents/zapatas/node_1/views/index.jade",
+		"/Users/jreyes/Documents/zapatas/node_1/public/styles/style.css",
+		"/Users/jreyes/Documents/zapatas/node_1/public/styles/supersized.css",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/views/index.jade",
+		"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/book-node-mongodb-backbone-master/ch10/views/layout.jade",
+		"/Applications/XAMPP/xamppfiles/htdocs/saul/index.html",
+		"/Users/jreyes/Documents/Sublime Text 2.0.1/Data/Packages/CodeIgniter Snippets/ip_address.sublime-snippet",
+		"/Users/jreyes/Desktop/isFriend.php",
+		"/Users/jreyes/Desktop/getInfUser.php",
+		"/Users/jreyes/Desktop/test.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone",
+			"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/",
+			"/Users/jreyes/Dropbox/YO/LinKus/node_backbone_mongobdb/appBone/public/images/photos",
+			"/Users/jreyes/Documents/zapatas/node_1"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sprit",
+			"sprite",
+			"sprit",
+			"Tot",
+			"DELETE",
+			"updateFieldArray",
+			"findByString",
+			"id",
+			"cir",
+			"Invitations",
+			"update",
+			"div.myName",
+			";*/\n",
+			"\"><%=",
+			"<",
+			"insertAddressById",
+			"%>-->\n",
+			"register",
+			"%;\n",
+			"');\n",
+			"h",
+			"Hola Posts",
+			"hola posts",
+			"StatusView\n",
+			"\n",
+			"#error",
+			"slide",
+			"/contacts",
+			"nodemailer",
+			"config",
+			"588840106 -",
+			"588840106 - 588840106",
+			"joystick",
+			"joystyck",
+			"scroll",
+			"container",
+			"php",
+			"header",
+			"buttonText",
+			"month"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/views/index.js",
+					"settings":
+					{
+						"buffer_size": 2467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/templates/post/postheadtempl.html",
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/views/post/postheaderview.js",
+					"settings":
+					{
+						"buffer_size": 990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								644
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/templates/index.html",
+					"settings":
+					{
+						"buffer_size": 647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								581,
+								581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/views/post/posts.js",
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								784,
+								784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/styles/styles.css",
+					"settings":
+					{
+						"buffer_size": 8267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1469,
+								1469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1227.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "models/Account.js",
+					"settings":
+					{
+						"buffer_size": 8962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5761,
+								5768
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "routes/accounts.js",
+					"settings":
+					{
+						"buffer_size": 11269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6060,
+								6060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2600.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1903,
+								1903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 2739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2126,
+								2126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.4716796875,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tota",
+				"node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as"
+			],
+			[
+				"down",
+				"node_1/node_modules/express/node_modules/connect/lib/middleware/session/store.js"
+			],
+			[
+				"unabletolo",
+				"node_1/node_modules/connect/node_modules/formidable/test/legacy/system/test-multi-video-upload.js"
+			],
+			[
+				"css",
+				"css/estilos.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true
+}
