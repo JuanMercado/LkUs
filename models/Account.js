@@ -10,8 +10,19 @@ module.exports = function(app, config, mongoose, nodemailer) {
     }
   };
 
+  var Extern_contacts = new mongoose.Schema({
+    id:           { type: String},
+    type_api:     { type: String},
+    name:         { type: String},
+    first_name:   { type: String},
+    last_name:    { type: String},
+    picture:      { type: String},
+    gender:       { type: String}
+  },schemaOptions);
+
   var Contact = new mongoose.Schema({
     accountId: { type: mongoose.Schema.ObjectId },
+    id:        { type: String},
     added:     { type: Date },     // When the contact was added
     updated:   { type: Date }      // When the contact last updated
   }, schemaOptions);
@@ -75,24 +86,25 @@ module.exports = function(app, config, mongoose, nodemailer) {
   });
 
   var AccountSchema = new mongoose.Schema({
-    email:     { type: String, unique: true },
-    password:  { type: String },
-    name: {
-      first:   { type: String },
-      last:    { type: String },
-      full:    { type: String }
-    },
+    email:            { type: String, unique: true },
+    email_facebook:   { type: String},
+    email_linkedin:   { type:String},
+    password:         { type: String },
+    name:             { type:String},
+    first_name:       { type:String},
+    last_name:        { type:String},
     profile:          [ Profile ],
     professions:      [ Professions ],
     accounttype:      { type: String} ,
     photoUrlSmall:    { type: String },
     photoUrlLarge:    { type: String} ,
-    contacts:         [ Contact ],
+    extern_contacts:  [Extern_contacts],
+    contacts:  [ Contact ],
     post :            [ Post ],
     archivist:        [ Archivist ],
     invitations:      [ Invitations ],
-    added:     { type: Date },     // When the contact was added
-    update:    { type: Date }     // When the contact was added
+    added:            { type: Date },     // When the contact was added
+    update:           { type: Date }     // When the contact was added
   });
 
   var Account = mongoose.model('Account', AccountSchema);
@@ -148,7 +160,8 @@ module.exports = function(app, config, mongoose, nodemailer) {
     var searchRegex = new RegExp(searchStr, 'i');
     Account.find({
       $or: [
-        { 'name.full': { $regex: searchRegex } },
+
+        { 'extern_contacts.name': { $regex: searchRegex } },
         { email:       { $regex: searchRegex } }
       ]
     },fieldsShowing, callback);
@@ -210,9 +223,8 @@ module.exports = function(app, config, mongoose, nodemailer) {
 
     if (account[first])
       {
-        console.log(account[first]);
+        console.log('Function-Remove: '+account[first]);
         account[first].forEach(function(that){
-          console.log('REMOVE:'+that._id +' - '+Id);
           if(that._id==Id){
             account[first].remove(that);
           }
@@ -248,16 +260,14 @@ module.exports = function(app, config, mongoose, nodemailer) {
     shaSum.update(password);
     var user = new Account({
       email: email,
-      name: {
-        first: '',
-        last: '',
-        full: ''
-      },
+      name: '',
+      first_name: '',
+      last_name: '',
       photoUrlSmall : '/images/photos/171.jpg',
       photoUrlLarge : '/images/photos/171.jpg',
       password: shaSum.digest('hex'),
       accounttype: "Normal",
-      added:new Date()
+      added: new Date()
     });
     user.save(registerCallback);
   };

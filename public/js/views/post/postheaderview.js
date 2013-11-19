@@ -28,6 +28,7 @@ define(['SocialNetView', 'text!templates/post/postheadtempl.html'],
             model : this.model.toJSON(),
             postId: this.options.postId
           }));
+        $(this.$el.html()).appendTo('.header-post');
       }
       return this;
     }

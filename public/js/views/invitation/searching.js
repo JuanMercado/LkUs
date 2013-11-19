@@ -20,7 +20,7 @@ define(['SocialNetView', 'views/invitation/invitation'],
     },
     onInvitationAdded: function (invitation){
       if(invitation){
-        var inv=invitation.get('invitations');
+        var inv=invitation.get('extern_contacts');
         var status='Invitar';
         if(inv.length>0)
           status=inv[0].statusfollower;

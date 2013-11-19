@@ -124,7 +124,7 @@ module.exports = function(app, models) {
     var fields = req.param('fields','');
     var total=0;
     models.Account.findByArray(where, fields, function(account) {
-        total=account[0][firstArray].length;
+        //total=account[0][firstArray].length;
         var array = {
           total:total
         }
@@ -476,11 +476,53 @@ app.post('/accounts/:id/updateFieldsProfile',function(req,res){
   var fields = req.param('parameters','');
   models.Account.updateField(accountId, fields);
 
-  /*app.triggerEvent('event:' + contactId, {
-                    from: contactId,
-                    data: post,
-                    action: 'post'
-                  });*/
+  res.send(200);
+});
+
+app.post('/accounts/:id/updatefields',function(req,res){
+  var accountId = req.params.id == 'me'
+                     ? req.session.accountId
+                     : req.params.id;
+
+  var fields = req.param('fields','');
+  var field_validate=req.param('field_validate');
+  models.Account.findById(accountId,function(account){
+    if(field_validate!=''){
+      if(account[field_validate]!=undefined){
+        if(account[field_validate]!=''){
+          console.log('Ya hay informacion guardada');
+        }else
+          models.Account.updateField(accountId,fields);
+      }else
+        models.Account.updateField(accountId,fields);
+    }else
+    models.Account.updateField(accountId,fields);
+  });
+  res.send(200);
+});
+
+app.post('/accounts/:id/insertfriendsapi', function(req,res){
+  var accountId = req.params.id == 'me'
+                     ? req.session.accountId
+                     : req.params.id;
+
+  var fields = req.param('fields','');
+  var field_validate=req.param('field_validate');
+
+  var encontrado=false;
+
+  models.Account.findById(accountId, function(account){
+    //if(account[field_validate]!=undefined){
+      account.extern_contacts.forEach(function(friend){
+        if(friend.id == fields.id)
+          encontrado=true;
+      });
+
+      if(!encontrado){
+        account.extern_contacts.push(fields);
+        account.save();
+      }
+  });
   res.send(200);
 });
 
