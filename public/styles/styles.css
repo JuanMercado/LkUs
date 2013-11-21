@@ -411,6 +411,7 @@ form {
 }
 #p-profesions{
 	border: 1px dotted red;
+	tex
 	min-height: 50px;
 	width: 400px;
 }
@@ -541,7 +542,7 @@ form {
     background-image: -webkit-radial-gradient(-23px 50%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 55px,gray 56px);
     background-image: -ms-radial-gradient(-23px 50%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 55px,gray 56px );
     background-image: -o-radial-gradient(-23px 50%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 55px,gray 56px);
-    background-image: -o-radial-gradient(-23px 50%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 55px,gray 56px);
+    background-image: radial-gradient(-23px 50%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 55px,gray 56px);
 }
 .contact-info-left{
 	width: 100px;

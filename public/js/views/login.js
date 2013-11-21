@@ -4,7 +4,7 @@ define(['SocialNetView', 'text!templates/login.html'],
     requireLogin: false,
     el: $('#loginForm'),
     events: {
-      "submit form": "login",
+      "submit form": "login"
     },
     initialize: function(options) {
       this.socketEvents = options.socketEvents;

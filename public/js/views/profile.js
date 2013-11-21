@@ -17,7 +17,6 @@ define(['SocialNetView', 'text!templates/profile.html','views/displaynameview','
     initialize: function (options) {
       this.model.bind('change', this.render, this);
     },
-
     deleteProfession: function(event){
       var id = $(event.currentTarget).attr('id');
       var object = $(event.currentTarget);
@@ -79,9 +78,11 @@ define(['SocialNetView', 'text!templates/profile.html','views/displaynameview','
       var last = $('input[name=i-last]').val()=='Apellidos' ? '':$('input[name=i-last]').val();
       var full = first +' '+last;
       var parameters = {
-          first_name: first,
-          last_name: last,
-          name: full
+        name:{
+          first:first,
+          last: last,
+          full: full
+        }
       }
       $.post('accounts/me/updateFieldsProfile', {
             parameters: parameters
@@ -94,7 +95,7 @@ define(['SocialNetView', 'text!templates/profile.html','views/displaynameview','
     render: function() {
         if(this.model.get('photoUrlSmall')!=undefined){
           var that = this;
-          this.$el.html(_.template(profileTemplate,{model:this.model.toJSON()}));
+          this.$el.html(_.template(profileTemplate,this.model.toJSON()));
           fields='NaN';
           table='NaN';
           var w = 'NaN';

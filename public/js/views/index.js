@@ -7,15 +7,10 @@ function(SocialNetView, indexTemplate, PostView,
   PostHeaderModel,InvitationsMenuView,ContactsMenuView) {
     var indexView = SocialNetView.extend({
     el: $('#myBodyContent'),
-    token:'',
     events: {
       "submit #frmPost": "updatePost",
-      "click a[name=r-close]": "close",
-      "click button[name=b_r_post]": "submitResponse",
-      "click #btnFacebook": "loginFacebook"
-    },
-    loginFacebook: function(){
-      this.facebookLog();
+      'click a[name=r-close]': 'close',
+      'click button[name=b_r_post]': 'submitResponse'
     },
     initialize: function(options) {
       options.socketEvents.bind('post:me', this.onSocketPostAdded, this );
@@ -23,64 +18,6 @@ function(SocialNetView, indexTemplate, PostView,
       options.socketEvents.bind('newcontact:me', this.onSocketFriends, this );
       this.collection.on('add',this.onPostAdded,this);
       this.collection.on('reset',this.onPostCollectionReset,this);
-      var that= this;
-
-      $.get('/accesstoken',function(res){
-        //if(JSON.stringify(res).length>2){
-          that.getFacebook(res);
-        //}else{
-          //that.facebookLog();
-        //}
-      });
-    },
-    facebookLog: function(){
-      var token='';
-      $.get('http://localhost:8080/loginfacebook', function(){
-
-      });
-    },
-    getFacebook: function(res){
-      var url='https://graph.facebook.com/766091662?access_token='+res.access_token+'&fields=birthday,email,gender,first_name,last_name,name,picture.type(normal),friends.fields(birthday,email,gender,first_name,last_name,name,picture.type(normal))';
-        $.get(url,function(req){
-          if(JSON.stringify(req.friends)!=undefined){
-            var data = {
-              first_name: req.first_name,
-              last_name: req.last_name,
-              name: req.name,
-              photoUrlSmall: req.picture.data.url,
-              photoUrlLarge: req.picture.data.url,
-              email_facebook: req.email
-            };
-            $.post('/accounts/me/updatefields',
-            {
-              fields:data,
-              field_validate: 'email_facebook'
-            },function(){
-              $.each(req.friends.data,function(friend){
-                var Extern_contacts = {
-                id:           req.friends.data[friend].id,
-                type_api:     'facebook',
-                name:         req.friends.data[friend].name,
-                first_name:   req.friends.data[friend].first_name,
-                last_name:    req.friends.data[friend].last_name,
-                picture:      req.friends.data[friend].picture.data.url,
-                gender:       req.friends.data[friend].gender
-              };
-              $.post('/accounts/me/insertfriendsapi',{
-                fields: Extern_contacts,
-                field_validate: 'Extern_contacts'
-              },function(){
-
-              });
-              });
-
-
-            });
-
-        }
-
-          //  alert(JSON.stringify(req));
-        },'jsonp');
     },
     close :function(){
       $('.response_post').hide('slow');
@@ -135,6 +72,7 @@ function(SocialNetView, indexTemplate, PostView,
     },
     onPostAdded:function(post){
         var postHtml = (new PostView({model:post})).render().el;
+        $(postHtml).prependTo('.status_list').hide().fadeIn('slow');
     },
     updatePost: function(){
       var postText = $('textarea[name=status]').val();
@@ -149,6 +87,8 @@ function(SocialNetView, indexTemplate, PostView,
       return false;
     },
     render: function() {
+      this.renderFriendsMenuView();
+      this.renderInvitationsMenuView();
       this.$el.html(_.template(indexTemplate));
     }
   });

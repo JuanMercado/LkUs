@@ -3,7 +3,7 @@
          <!--Imagen-->
          <div class="circular">
              <div>
-                <img src="<%=model.photoUrlSmall%>" class="picture" />
+                <img src="<%=photoUrlSmall%>" class="picture" />
             </div>
             <div>
                 <a href="#" name="addPicture">Agregar</a>
@@ -15,12 +15,12 @@
          <!-- Nombres y Apellidos -->
          <div id="p-name">
             <div class="p-c-span">
-                <span name="first"><%= (model.first_name && model.first_name!=='') ? model.first_name : 'Nombres' %></span>
-                <span class="last"><%= (model.last_name && model.last_name!=='') ? model.last_name : 'Apellidos' %></span>
+                <span name="first"><%= (name.first && name.first!=='') ? name.first : 'Nombres' %></span>
+                <span class="last"><%= (name.last && name.last!=='') ? name.last : 'Apellidos' %></span>
             </div>
              <div class="p-c-input">
-                <input name="i-first" value="<%= (model.first_name!=='') ? model.first_name : '' %>" />
-                <input name="i-last" value="<%= (model.last_name !=='') ? model.last_name : '' %>" />
+                <input name="i-first" value="<%= (name.first!=='') ? name.first : '' %>" />
+                <input name="i-last" value="<%= (name.last !=='') ? name.last : '' %>" />
              </div>
          </div>
          <div id="p-profesions">
@@ -59,11 +59,5 @@
             <input name="telephone" id="Telephono" />
             <button id="AddAddress">Agregar Telefono</button>
         </div>
-    </div>
-    <div>
-        <p>
-            <a href="http://localhost:8080/loginfacebook" >Facebook</a>
-        </p>
-
     </div>
  </div>

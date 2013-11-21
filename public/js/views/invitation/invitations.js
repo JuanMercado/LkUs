@@ -40,11 +40,8 @@ function(SocialNetView, InvitationModel,GenericCollection, InvitationView,
     searching: function(e){
       $('.contacts_list').empty();
       if($('#follow_searching').val().length>0){
-        var where={_id:'me'};
-        var fields ='_id name photoUrlSmall accounttype photoUrlLarge professions';
-        var table='NaN';
         var accounts = new GenericCollection();
-        accounts.url = '/accounts/me/extern_contacts/'+$('#follow_searching').val()+'/resultarray';
+        accounts.url = '/accounts/me/_id name photoUrlSmall proffesions invitations/'+$('#follow_searching').val()+'/findmycontacts';
         var htmlS = (new SearchingView({collection:accounts})).render().el;
         $(htmlS).appendTo('.contacts_list');
         accounts.fetch();
